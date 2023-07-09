@@ -106,3 +106,13 @@ if let value = optionalValue {
 
 // 옵셔널 강제 추출은 옵셔널에 값이 들어있는지 확인하지 않고 강제로 값을 꺼내는 방식
 // 만약 값이 없을경우(nil) 런타임 오류가 발생하여 프로그램이 강제 종료됨
+
+var optionalValue: Int? = 100
+print(optionalValue)
+
+var optionalValue: Int? = nil
+print(optionalValue)
+
+var optionalValue: Int! = 100
+print(optionalValue)
+
