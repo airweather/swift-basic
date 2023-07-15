@@ -116,3 +116,5 @@ print(optionalValue)
 var optionalValue: Int! = 100
 print(optionalValue)
 
+// 옵셔널 체이닝
+// 옵셔널의 내부의 내부의 내부로 옵셔널이 연결되어 있을 때 유용하게 사용할 수 있음
